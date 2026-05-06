@@ -17,3 +17,9 @@ def hacer_cambio(m, monedas=(1, 5, 10, 25)):
     return dp[m]
 
 
+if __name__ == "__main__":
+    test_cases = [11, 30, 99]
+
+    for m in test_cases:
+        result = hacer_cambio(m)
+        print(f"m = {m:3d}:  monedas minimas = {result}")
