@@ -33,3 +33,9 @@ def nokia_combinations(n):
     return sum(dp[n][d] for d in range(10))
 
 
+if __name__ == "__main__":
+    test_cases = [1, 2, 3, 4]
+
+    for n in test_cases:
+        result = nokia_combinations(n)
+        print(f"n = {n}:  combinaciones = {result}")
