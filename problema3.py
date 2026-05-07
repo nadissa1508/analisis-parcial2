@@ -34,7 +34,7 @@ def nokia_combinations(n):
 
 
 if __name__ == "__main__":
-    test_cases = [1, 2, 3, 4]
+    test_cases = [1, 5, 3, 7]
 
     for n in test_cases:
         result = nokia_combinations(n)
